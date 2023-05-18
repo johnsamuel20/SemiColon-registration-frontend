@@ -199,7 +199,15 @@ function Form() {
           <div id="top-form">
             <div className="title">Workshop Registration</div>
           </div>
-          {loading ? (
+          <div className="form-unavailable-message">
+            <h2>Sorry, this form isn't available right now</h2>
+          </div>
+          <div className='ball-loader'>
+            <div className="bar">
+              <div className="ball"></div>
+            </div>
+          </div>
+          {/* {loading ? (
             <Loading />
           ) : (
             <>
@@ -389,7 +397,7 @@ function Form() {
               </button>
               <div className="error-mess">{errorMessage}</div>
             </>
-          )}
+          )} */}
 
           {thankMessage && <ThankYou />}
         </form>

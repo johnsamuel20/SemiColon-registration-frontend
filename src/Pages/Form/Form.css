@@ -181,7 +181,7 @@ input[type=number] {
   width: 200px;
 }
 .form-unavailable-message {
-  width: 70%;
+  width: 60%;
   margin: 20px auto;
   padding: 10px;
   border: 1px solid #ccc;

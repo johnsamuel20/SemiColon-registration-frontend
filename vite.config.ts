@@ -5,4 +5,5 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   // base: '/SemiColon-registration-frontend',
   plugins: [react()],
+  base: "/SemiColon-registration-frontend/"
 })

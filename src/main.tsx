@@ -10,7 +10,7 @@ import SmoothScroll from './Components/SmoothScroll/SmoothScroll.tsx'
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/SemiColon-registration-frontend',
     element: <App />,
   },
   {
